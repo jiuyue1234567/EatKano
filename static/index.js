@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
+        if (cps <= 5) return '这么菜玩个锤子赶紧去给我学数学';
+        if (cps <= 8) return '曾经有一个喜欢的人';
+        if (cps <= 10)  return '或许能追到他';
+        if (cps <= 15) return '我天这么厉害写作业了嘛';
         return '人？';
     }
 
